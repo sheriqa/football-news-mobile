@@ -16,7 +16,7 @@ class ItemCard extends StatelessWidget {
       color: Theme.of(context).colorScheme.secondary,
       // Membuat sudut kartu melengkung.
       borderRadius: BorderRadius.circular(12),
-
+//tes
       child: InkWell(
         // Aksi ketika kartu ditekan.
         onTap: () {
