@@ -158,7 +158,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
                           borderRadius: BorderRadius.circular(5.0),
                         ),
                       ),
-                      value: _category,
+                      initialValue: _category,
                       items: _categories
                           .map((cat) => DropdownMenuItem(
                                 value: cat,
